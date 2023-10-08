@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <title>Cadreship Tech Workshop</title>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikah Nubuahtul Ilmi</title>
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <h1><b>Sikah Nubuahtul Ilmi</b></h1>
-        <h2>122140208</h2>
-        <h2>Kelompok 11</h2>
-    </head>
+</head>
 
-    <body>
-        <header class="navbar">
-            <div class="nav-list">
-              <ul>
-                <li><a href="#about">About Me</a></li>
+<body>
+    <header class="navbar">
+        <div class="profil">
+            <img src="image/logo-profil.png" alt="Sikah Nubuahtul Ilmi">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#bio">Biodata</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </header>
-
-        
-    <main>
-        <div class="profile-image">
-            <img src="image/foto.png" alt="Foto Diri">
+            </ul>
         </div>
+    </header>
 
-        <article id="about">
-            <div class="about">
+    <main>
+        <div class="content-description">
+            <article id="about" class="card">
                 <h2><b>About Me</b></h2>
-                <p>I am an IT student at the <u><a href="https://itera.ac.id">Sumatera Institute of Technology</a></u> interested in website development and the application of AI. I am focusing on increasing my understanding of the field by learning the latest concepts and technologies.</p>
+                <p>I am an IT student at the <a href="https://itera.ac.id">Sumatera Institute of Technology</a>
+                    interested in website development and the application of AI. I am focusing on increasing my
+                    understanding of the field by learning the latest concepts and technologies.</p>
                 <p>Quotes: <i>"Cause you can't rely on tomorrow to change you"</i></p>
-            </div>
-        </article>
+            </article>
 
-        <article id="bio">
-            <div class="biodata">
+            <article id="bio" class="card">
                 <h2><b>Biodata</b></h2>
                 <ul>
                     <li>Name: Sikah Nubuahtul Ilmi</li>
                     <li>NIM: 122140208</li>
                     <li>Address: Airan</li>
                     <li>Gender: Female</li>
-                    <li>Birth of Place: Palembang</li>
+                    <li>Birthplace: Palembang</li>
                 </ul>
-            </div>
-        </article>
+            </article>
 
-        <article id="experience">
-            <div class="experience">
+            <article id="experience" class="card">
                 <h2><b>Experience</b></h2>
                 <ul>
                     <li>Staff of ITERA TV (Humas ITERA 2023-Present)</li>
@@ -60,32 +60,41 @@
                     <li>Staff of Publication and Documentation (Ramadhan ITERA Fest March-April 2023)</li>
                     <li>Staff of Public Relations (BPH IF 2022 ITERA 2023-Present)</li>
                 </ul>
-            </div>
-        </article>
+            </article>
 
-        <article id="education">
-            <div class="education">
+            <article id="education" class="card">
                 <h2><b>Education</b></h2>
                 <ul>
-                    <li><b>Informatics Engineering</b>> (ITERA) 2022-Present</li>
-                    <li><b>Mathematics and Natural Sciences</b>> (MAN 3 Palembang) 2019-2022</li>
+                    <li><b>Informatics Engineering</b> (ITERA) 2022-Present</li>
+                    <li><b>Mathematics and Natural Sciences</b> (MAN 3 Palembang) 2019-2022</li>
                 </ul>
-            </div>
-        </article>
+            </article>
+        </div>
 
-        <article id="contact">
-            <div class="contact">
-                <ul>
-                <li><a href="https://www.linkedin.com/in/sikah-nubuahtul-ilmi-313198219/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/sikahn_"><i class="fab fa-instagram"></i> Instagram</a></li>
-                <li><a href="https://github.com/sigawari"><i class="fab fa-github"></i> GitHub</a></li>
-                </ul>
+        <aside class="card" id="contact">
+            <div class="profil-image">
+                <img src="image/foto.png" alt="Foto Profil">
             </div>
-        </article>
-    </main>   
-    </body>
+
+            <div class="contact">
+                <div class="social-media">
+                    <h2 style="color:white"><b>Contact</b></h2>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/sikah-nubuahtul-ilmi-313198219/"><i
+                                    class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/sikahn_"><i class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                        <li><a href="https://github.com/sigawari"><i class="fab fa-github"></i> GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
 
     <footer>
         <p><small>© 2023 Sikah Nubuahtul Ilmi. All Rights Reserved.</small></p>
-      </footer>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
 </html>
